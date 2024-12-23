@@ -20,15 +20,15 @@ The CSV Files can include a Headline with the following Terms:
 - TOTPDigits
 By specifying a header you can define which data is imported and which line it is in.
 For Example:
->If you set *UserName, Password, Website, DisplayName* as Headline it will only Import those Terms and will only allow the same amount of Terms as Records inside the CSV File
+If you set *UserName, Password, Website, DisplayName* as Headline it will only Import those Terms and will only allow the same amount of Terms as Records inside the CSV File
 
 Note:
->Following Seperators can be used to seperate the Terms:
->- *\t* (Tabulator)
->- *,*
->- *;*
->- *:*
-> You should choose a Seperator, which does not occure in your Terms for example in your Password. If it does occure in your Terms this Record might will not be imported or will imported incorrect!
+Following Seperators can be used to seperate the Terms:
+- *\t* (Tabulator)
+- *,*
+- *;*
+- *:*
+ You should choose a Seperator, which does not occure in your Terms for example in your Password. If it does occure in your Terms this Record might will not be imported or will imported incorrect!
 
 If you do not want to specify a Headline the default Headline *DisplayName, UserName, EMail, Password, Website, Notes* will be used.
 
