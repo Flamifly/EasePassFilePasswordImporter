@@ -1,4 +1,4 @@
-#EasePassFilePasswordImporter
+# EasePassFilePasswordImporter
 The EasePassFilePasswordImporter is a Plugin, which can be used to Import the following Filetypes:
 - CSV
 - XML
@@ -6,7 +6,7 @@ The EasePassFilePasswordImporter is a Plugin, which can be used to Import the fo
 For the Import the Passwords needs to be decrypted. This means it is unsecure because the Passwords will exist without any encryption on the Filesystem.
 
 
-##CSV Import
+## CSV Import
 The CSV Files can include a Headline with the following Terms:
 - UserName
 - Password
@@ -33,15 +33,15 @@ Note:
 If you do not want to specify a Headline the default Headline *DisplayName, UserName, EMail, Password, Website, Notes* will be used.
 
 
-##XML Import
+## XML Import
 The XML File should include an Array of PasswordItems.
 
 
-##JSON Import
+## JSON Import
 The JSON File should include an Array of PasswordItems.
 
 
-##PasswordItem
+## PasswordItem
 The PasswordItem is a class of the EasePass PasswordManager, which includes the following Properties:
 - *DisplayName*: The Displayname of the Password in EasePass
 - *UserName*: The Username for the Password
