@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfPasswordItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PasswordItem>
+    <DisplayName>My Password</DisplayName>
+    <UserName>My User</UserName>
+    <EMail>MyEmail@mydomain.com</EMail>
+    <Website>MyWebsite.com</Website>
+    <Password>My Password</Password>
+    <Notes>This is my great Password</Notes>
+    <TOTPDigits>0</TOTPDigits>
+    <TOTPInterval>0</TOTPInterval>
+    <TOTPAlgorithm>SHA1</TOTPAlgorithm>
+  </PasswordItem>
+</ArrayOfPasswordItem>
