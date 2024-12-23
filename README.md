@@ -22,7 +22,9 @@ The CSV Files can include a Headline with the following Terms:
 By specifying a header you can define which data is imported and which line it is in.
 
 For Example:
-If you set *UserName, Password, Website, DisplayName* as Headline it will only Import those Terms and will only allow the same amount of Terms as Records inside the CSV File
+If you set
+*UserName, Password, Website, DisplayName*
+as Headline it will only Import those Terms and will only allow the same amount of Terms as Records inside the CSV File
 
 Note:
 Following Seperators can be used to seperate the Terms:
