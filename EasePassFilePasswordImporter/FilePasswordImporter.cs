@@ -1,10 +1,9 @@
 ﻿using EasePassExtensibility;
-using EasePassFilePasswordImporter.Helper;
 using EasePassFilePasswordImporter.Import;
 
 namespace EasePassFilePasswordImporter
 {
-    public class FilePasswordImporter : IPasswordImporter
+    public class FilePasswordImporter : IPasswordImporter, IFilePickerInjectable
     {
         /// <summary>
         /// Name of the Plugin
@@ -15,6 +14,9 @@ namespace EasePassFilePasswordImporter
         /// </summary>
         public Uri SourceIcon => Icon.GetIconUri();
 
+        public FilePicker FilePicker { get; set; } = Dummy;
+        private static string Dummy(string[] exts) { return ""; }
+
         /// <summary>
         /// Gets the Passwords of a File
         /// </summary>
@@ -22,7 +24,7 @@ namespace EasePassFilePasswordImporter
         public PasswordItem[] ImportPasswords()
         {
             List<PasswordItem> passwords = new List<PasswordItem>();
-            string[] files = FilePickerHelper.PickFiles("All (*.csv, *.xml, *.json)|*.csv;*.xml;*.json");
+            string[] files = new string[] { FilePicker(new string[] { ".csv", ".xml", ".json" }) };
 
             foreach (string file in files)
             {
