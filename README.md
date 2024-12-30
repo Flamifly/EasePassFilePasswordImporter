@@ -41,7 +41,7 @@ If you do not want to specify a Headline the default Headline
 ***DisplayName, UserName, EMail, Password, Website, Notes***  
 will be used.
 
-Here you can find a [Sample](https://github.com/Flamifly/EasePassFilePasswordImporter/blob/main/Samples/CSVSample.xml)
+Here you can find a [Sample](https://github.com/Flamifly/EasePassFilePasswordImporter/blob/main/Samples/CSVSample.csv)
 
 
 ## XML Import
@@ -51,7 +51,7 @@ Here you can find a [Sample](https://github.com/Flamifly/EasePassFilePasswordImp
 
 ## JSON Import
 The JSON File should include an Array of PasswordItems.  
-Here you can find a [Sample](https://github.com/Flamifly/EasePassFilePasswordImporter/blob/main/Samples/JSONSample.xml)
+Here you can find a [Sample](https://github.com/Flamifly/EasePassFilePasswordImporter/blob/main/Samples/JSONSample.json)
 
 ## PasswordItem
 The PasswordItem is a class of the EasePass PasswordManager, which includes the following Properties:
